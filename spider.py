@@ -137,6 +137,4 @@ def getVideos(url=None, scroll=False):
     for fileUrl in fileUrls:
         saveFileData(fileUrl, destination=makeCwdDir("downloads"))
 
-#getVideos("https://www.instagram.com/explore/tags/dumbabstraction/")
-#getVideos(cwdFile("src.html"))
-getVideos("https://www.instagram.com/explore/tags/dumbabstraction/")
+getVideos("https://www.instagram.com/explore/tags/cat/")
